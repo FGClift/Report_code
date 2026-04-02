@@ -14,7 +14,7 @@ C=0.97*sin(omega*(t-alpha))+0.22*sin(2*omega*(t-alpha))+0.07*sin(3*omega*(t-alph
 
 
 %lower threshold parameters
-H0minus = 0.09;
+H0minus = 0.09; % This is the parameter which is changed to vary H0
 H0plus= 0.75;
 a= 0.07;
 Hminus = H0minus + a*C;
